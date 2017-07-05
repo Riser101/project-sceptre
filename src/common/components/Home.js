@@ -78,7 +78,7 @@ class Home extends Component {
 				</div>
 
 				<div className="exclaimation">
-					<em><b>*</b> This site is built with these technologies. View the <a href="https://github.com/caljrimmer/portfolio-redux-app">github repo here</a>.</em><br/>
+					<em><b>*</b> This site is built with these technologies. View the <a href="https://github.com/Riser101/project-sceptre">github repo here</a>.</em><br/>
 					<em><b>**</b> Yep, I know React can be used on the server side too. This site is Isomorphical rendered.</em>
 				</div>
 
@@ -91,7 +91,7 @@ class Home extends Component {
 
 				<ul className="clients">
 					<li className="wechat-logo">wechat</li>
-					<li className="bms-logo">bookmyshow</li>
+					<li className="bms-logo"> <a href="https://bookmyshow.com"> </a>bookmyshow</li>
 					<li className="wingify-logo">wingify</li>
 				</ul>
 
