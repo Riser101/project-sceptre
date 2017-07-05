@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Banner from './layout/Banner';
+import Typist from 'react-typist';
 
 class Home extends Component {
 
@@ -17,11 +18,18 @@ class Home extends Component {
 
     return (
 
+    	
+
       	<div className="posts">
-  
-  			<div className="post banner">
-			    <h1 className="post-title">I build <em>scalable</em>, <em>maintainable</em> and <em>secure</em> enterprise web applications.</h1>
-    			<p>for <em>agencies</em>, <em>bluechips</em>, <em>start-ups</em> and sometimes, <em>myself</em>. <a href="#" onClick={this.eventToggleSidebar}> Find out More</a></p>
+
+      		<div className="post banner">
+			    <h1 className="post-title">
+			    I build 
+			    <Typist>
+			    	scalable
+			    </Typist>
+			    <em>scalable</em>, <em>maintainable</em> and <em>secure</em> enterprise web applications.</h1>
+    			<p>for <em>start-ups</em> and well sometimes for <em>myself</em>. <a href="#" onClick={this.eventToggleSidebar}> Find out More</a></p>
 
 			</div>
   
@@ -30,16 +38,13 @@ class Home extends Component {
 				<h2>Technologies I build with:</h2>
 
 				<div className="skill-item clearfix">
-					<h4>Client Side JS</h4>
+					<h4>Client Side</h4>
 					<ul className="">
-						<li><em>Backbone</em></li>
 						<li><em><b>*</b><b>*</b>React</em>
 							<ul>
 								<li><em><b>*</b>Redux</em></li>
-								<li><em>Flux</em></li>
 							</ul>
 						</li>
-						<li><em>D3</em></li>
 					</ul>
 				</div>
 
@@ -47,11 +52,11 @@ class Home extends Component {
 				<div className="skill-item clearfix">
 					<h4>Server Side JS</h4>
 					<ul>
-						<li><em>MongoDB</em></li>
-						<li><em><b>*</b>Node</em>
+						<li><em><b>*</b>PHP</em></li>
+						<li><em><b>*</b>.NET</em></li>
+						<li><em><b>*</b>NodeJS</em>
 							<ul>
 								<li><em><b>*</b>Express</em></li>
-								<li><em>Hapi</em></li>
 							</ul>
 						</li>
 					</ul>
@@ -60,10 +65,7 @@ class Home extends Component {
 				<div className="skill-item clearfix">
 					<h4>Testing</h4>
 					<ul>
-						<li><em>Jasmine</em></li>
-						<li><em>Karma</em></li>
-						<li><em>Protractor</em></li>
-						<li><em>Jest</em></li>
+						<li><em>Mocha</em></li>
 					</ul>
 				</div>
 
@@ -90,13 +92,13 @@ class Home extends Component {
 				<h2>Companies I have worked with:</h2>
 
 				<ul className="clients">
+					<li className="bms-logo">bookmyshow</li>
 					<li className="goldmans-logo">Goldman Sachs</li>
 					<li className="orange-logo">Orange</li>
 					<li className="tesco-logo">Tesco</li>
 					<li className="timeout-logo">Timeout</li>
 					<li className="wiley-logo">John Wiley and Sons</li>
 					<li className="covestor-logo">Covestor</li>
-					<li className="shipserv-logo">Shipserv</li>
 				</ul>
 
 			</div>

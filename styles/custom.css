@@ -68,6 +68,11 @@ ul.clients li.goldmans-logo {
    width:124px;
 }
 
+ul.clients li.bms-logo {
+   background: url('assets/bookmyshow.jpg') no-repeat;
+   width:124px;
+}
+
 ul.clients li.orange-logo {
    background: url('assets/orange-logo.jpg') no-repeat;
    width:70px;
