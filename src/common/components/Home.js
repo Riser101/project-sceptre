@@ -47,10 +47,11 @@ class Home extends Component {
 
 
 				<div className="skill-item clearfix">
-					<h4>Server Side JS</h4>
+					<h4>Server Side </h4>
 					<ul>
 						<li><em><b>*</b>PHP</em></li>
 						<li><em><b>*</b>.NET</em></li>
+						<li><em><b>*</b>Python</em></li>
 						<li><em><b>*</b>NodeJS</em>
 							<ul>
 								<li><em><b>*</b>Express</em></li>

@@ -22,13 +22,11 @@ class Sidebar extends Component {
 
 		  <div className="sidebar-item sidebar-footer">
 		    <p>This is part of project sceptre, built in Redux and React.</p>
-		    <p>Access <a href="https://github.com/Riser101/project-sceptre">project sceptre here.</a></p>
+		    <p>Access <a href="https://github.com/Riser101/project-sceptre">project-sceptre here.</a></p>
 		  </div>
 
 		  <nav className="sidebar-nav">
 		    <Link to="/home" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">Home</Link>
-		    <Link to="/portfolio" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">My Portfolio</Link>
-		    <Link to="/services" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">My Services</Link>
 		    <Link to="/about" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">About</Link>
 		  </nav>
 
@@ -38,7 +36,7 @@ class Sidebar extends Component {
 				Visit <a href="https://github.com/Riser101"> my GitHub</a><br/>
 				Visit <a href="https://www.linkedin.com/in/yousuf-syed-72ba4bb1/">my Linkedin</a><br/>
 				Visit <a href="https://twitter.com/YousufSyed5">my Twitter</a><br/>
-				Visit <a href="https://www.facebook.com/sy.yousuf9106">my Facebook l</a><br/>
+				Visit <a href="https://www.facebook.com/sy.yousuf9106">my Facebook</a><br/>
 		    </p>
 
 		    <p>
