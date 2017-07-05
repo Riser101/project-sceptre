@@ -71,6 +71,19 @@ ul.clients li.goldmans-logo {
 ul.clients li.bms-logo {
    background: url('assets/bookmyshow.jpg') no-repeat;
    width:124px;
+   height:120px;
+}
+
+ul.clients li.wingify-logo {
+  background: url('assets/wingify.jpg') no-repeat;
+  width:200px;
+  height:120px;
+}
+
+ul.clients li.wechat-logo {
+  background: url('assets/wechat.jpg') no-repeat;
+  width:125px;
+  height:120px;
 }
 
 ul.clients li.orange-logo {

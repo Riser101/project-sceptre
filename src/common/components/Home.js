@@ -25,11 +25,8 @@ class Home extends Component {
       		<div className="post banner">
 			    <h1 className="post-title">
 			    I build 
-			    <Typist>
-			    	scalable
-			    </Typist>
 			    <em>scalable</em>, <em>maintainable</em> and <em>secure</em> enterprise web applications.</h1>
-    			<p>for <em>start-ups</em> and well sometimes for <em>myself</em>. <a href="#" onClick={this.eventToggleSidebar}> Find out More</a></p>
+    			<p>for high growth <em>start-ups</em> and well sometimes for <em>myself</em>. <a href="#" onClick={this.eventToggleSidebar}> Find out More</a></p>
 
 			</div>
   
@@ -92,13 +89,9 @@ class Home extends Component {
 				<h2>Companies I have worked with:</h2>
 
 				<ul className="clients">
+					<li className="wechat-logo">wechat</li>
 					<li className="bms-logo">bookmyshow</li>
-					<li className="goldmans-logo">Goldman Sachs</li>
-					<li className="orange-logo">Orange</li>
-					<li className="tesco-logo">Tesco</li>
-					<li className="timeout-logo">Timeout</li>
-					<li className="wiley-logo">John Wiley and Sons</li>
-					<li className="covestor-logo">Covestor</li>
+					<li className="wingify-logo">wingify</li>
 				</ul>
 
 			</div>
