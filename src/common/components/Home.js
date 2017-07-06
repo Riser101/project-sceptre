@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Banner from './layout/Banner';
-import Typist from 'react-typist';
 
 class Home extends Component {
 
