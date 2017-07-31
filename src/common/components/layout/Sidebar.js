@@ -22,7 +22,6 @@ class Sidebar extends Component {
 
 		  <div className="sidebar-item sidebar-footer">
 		    <p>This is part of project sceptre, built in Redux and React.</p>
-		    <p>Access <a href="https://github.com/Riser101/project-sceptre">project-sceptre here.</a></p>
 		  </div>
 
 		  <nav className="sidebar-nav">
