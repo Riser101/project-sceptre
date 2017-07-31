@@ -36,10 +36,7 @@ class Home extends Component {
 				<div className="skill-item clearfix">
 					<h4>Client Side</h4>
 					<ul className="">
-						<li><em><b>*</b><b>*</b>React</em>
-							<ul>
-								<li><em><b>*</b>Redux</em></li>
-							</ul>
+						<li><em><b>*</b>React</em>
 						</li>
 					</ul>
 				</div>
@@ -48,31 +45,24 @@ class Home extends Component {
 				<div className="skill-item clearfix">
 					<h4>Server Side </h4>
 					<ul>
-						<li><em><b>*</b>PHP</em></li>
+						<li><em><b>*</b><b>*</b>PHP</em></li>
 						<li><em><b>*</b>.NET</em></li>
 						<li><em><b>*</b>Python</em></li>
-						<li><em><b>*</b>NodeJS</em>
-							<ul>
-								<li><em><b>*</b>Express</em></li>
-							</ul>
-						</li>
+						<li><em><b>*</b><b>*</b>NodeJS</em></li>
 					</ul>
 				</div>
 
-				<div className="skill-item clearfix">
+				<div className="skill-item clearfix">	
 					<h4>Testing</h4>
 					<ul>
-						<li><em>Mocha</em></li>
+						<li><em><b>*</b>Mocha</em></li>
 					</ul>
 				</div>
 
 				<div className="skill-item clearfix">
 					<h4>Deployment</h4>
 					<ul className="clearfix">
-						<li><em><b>*</b>Nginx</em></li>
-						<li><em><b>*</b>Webpack</em></li>
-						<li><em>Gulp</em></li>
-						<li><em>Grunt</em></li>
+						<li><em><b>*</b>Ansible</em></li>
 					</ul>
 				</div>
 
