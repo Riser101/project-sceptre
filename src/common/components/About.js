@@ -6,7 +6,7 @@ import Loader from './layout/Loader';
 import Banner from './layout/Banner';
 
 class About extends Component {
-  constructor(props) {
+  constructor(props) {  
     super(props);
   }
 
