@@ -22,7 +22,7 @@ const renderFullPage = (html, initialState) => {
     <html>
       <head>
         <meta charset="utf-8">
-        <title>Full Stack Developer based in Pune, India</title>
+        <title>Software Engineer based in Pune, India</title>
         <link rel="stylesheet" type="text/css" href="/static/app.css">
       </head>
       <body>
