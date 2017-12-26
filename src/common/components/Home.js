@@ -34,7 +34,7 @@ class Home extends Component {
 				<h2>Technologies I build with:</h2>
 
 				<div className="skill-item clearfix">
-					<ul className="">
+					<ul>
 						<li><em>PHP</em></li>
 						<li><em>NodeJS</em></li>
 						<li><em>Python</em></li>
