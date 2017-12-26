@@ -34,35 +34,39 @@ class Home extends Component {
 				<h2>Technologies I build with:</h2>
 
 				<div className="skill-item clearfix">
-					<h4>Client Side</h4>
 					<ul className="">
-						<li><em><b>*</b>React</em>
-						</li>
+						<li><em>PHP</em></li>
+						<li><em>NodeJS</em></li>
+						<li><em>Python</em></li>
+						<li><em>Java</em></li>
 					</ul>
 				</div>
 
 
 				<div className="skill-item clearfix">
-					<h4>Server Side </h4>
 					<ul>
-						<li><em><b>*</b><b>*</b>PHP</em></li>
-						<li><em><b>*</b>.NET</em></li>
-						<li><em><b>*</b>Python</em></li>
-						<li><em><b>*</b><b>*</b>NodeJS</em></li>
+						<li><em>MySQL</em></li>	
+						<li><em>MongoDB</em></li>	
+						<li><em>Redis</em></li>	
+						<li><em>Memcached</em></li>	
 					</ul>
 				</div>
 
 				<div className="skill-item clearfix">	
-					<h4>Testing</h4>
 					<ul>
-						<li><em><b>*</b>Mocha</em></li>
+						<li><em>RabbitMQ</em></li>
+						<li><em>IronMQ</em></li>
+						<li><em>Bash</em></li>
+						<li><em>Graphite</em></li>
 					</ul>
 				</div>
 
 				<div className="skill-item clearfix">
-					<h4>Deployment</h4>
 					<ul className="clearfix">
-						<li><em><b>*</b>Ansible</em></li>
+						<li><em>Docker</em></li>
+						<li><em>Ansible</em></li>
+						<li><em>Apache Thrift</em></li>
+						<li><em>Apache Thrift</em></li>
 					</ul>
 				</div>
 
