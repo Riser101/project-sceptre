@@ -66,7 +66,6 @@ class Home extends Component {
 						<li><em>Docker</em></li>
 						<li><em>Ansible</em></li>
 						<li><em>Apache Thrift</em></li>
-						<li><em>Apache Thrift</em></li>
 					</ul>
 				</div>
 
