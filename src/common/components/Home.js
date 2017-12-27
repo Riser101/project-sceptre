@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Banner from './layout/Banner';
+import Typist from 'react-typist';
 
 class Home extends Component {
 
@@ -17,15 +18,24 @@ class Home extends Component {
 
     return (
 
-    	
-
-      	<div className="posts">
+    	<div className="posts">
 
       		<div className="post banner">
 			    <h1 className="post-title">
-			    I build 
-			    <em>scalable</em>, <em>maintainable</em> and <em>secure</em> enterprise web applications.</h1>
-    			<p>for high growth <em>start-ups</em> and well sometimes for <em>myself</em>. <a href="#" onClick={this.eventToggleSidebar}> Find out More</a></p>
+			     <Typist cursor={{hideWhenDone: true, blink: true}}> 
+			    	I build 
+			    	<span> secure</span>
+			    	<Typist.Backspace count={6} delay={1500} />
+  					<span>scalable</span>
+  					<Typist.Backspace count={8} delay={1500} />
+  					<span>maintainable </span> 
+  					<Typist.Backspace count={13} delay={1500} />
+  					<span><em>awesome</em> enterprise web applications.</span> 
+  				</Typist>
+			    </h1>
+			    <p><br/>for high growth <em>start-ups</em> and well sometimes for <em>myself</em>. <a href="#" onClick={this.eventToggleSidebar}> Find out More</a></p>
+
+    			
 
 			</div>
   
