@@ -279,8 +279,8 @@ tbody tr:nth-child(odd) th {
   max-width: 38rem;
   padding-left:  0rem;
   padding-right: 1rem;
-  margin-left:  10rem;
-  margin-right: 10rem;
+  margin-left:  auto;
+  margin-right: auto;
 }
 
 
