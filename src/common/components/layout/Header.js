@@ -12,7 +12,7 @@ class Header extends Component {
 			    <a className="resume" href="https://drive.google.com/file/d/12ZZ8ee3eA8rQMlkJBw1SblLs6M0KGlCi/view?usp=sharing" >
 			    	Resume 
 			    </a>
-			    <a href="https://iyousufsyed.wordpress.com/" className="blog"> Blog</a>
+			    <a className="blog" href="https://iyousufsyed.wordpress.com/">Blog</a>
 			  </h3>
 			</div>
 	</div>

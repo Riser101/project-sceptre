@@ -33,13 +33,13 @@ class Home extends Component {
   					<span><em>awesome</em> enterprise web applications.</span> 
   				</Typist>
 			    </h1>
-			    <p><br/>for high growth <em>start-ups</em> and well sometimes for <em>myself</em>. <a href="#" onClick={this.eventToggleSidebar}> Find out More</a></p>
 
-    			
-
+				<p>for high growth <em>start-ups</em> and well sometimes for <em>myself</em>. 
+			    <a href="#" onClick={this.eventToggleSidebar}> 
+			    <br/>
+			    Find out More</a></p>    
 			</div>
-  
-		  	<div className="post clearfix">
+			<div className="post clearfix">
 
 				<h2>Technologies I build with:</h2>
 
