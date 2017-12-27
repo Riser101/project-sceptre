@@ -81,7 +81,6 @@ class Home extends Component {
 
 				<div className="exclaimation">
 					<em><b>*</b> This site is built with these technologies. View the <a href="https://github.com/Riser101/project-sceptre">github repo here</a>.</em><br/>
-					<em><b>**</b> Yep, I know React can be used on the server side too. This site is Isomorphical rendered.</em>
 				</div>
 
   			</div>
