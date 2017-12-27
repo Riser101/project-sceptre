@@ -309,12 +309,8 @@ tbody tr:nth-child(odd) th {
   color: #c0c0c0;
   letter-spacing: 0;
 }
-.masthead-resume {
-  text-align:right;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  padding-top: 0;
+.resume {
+  padding-left: 6.2em;
 }
 
 
@@ -334,7 +330,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #123;
 }
 .page-title,
 .post-title {

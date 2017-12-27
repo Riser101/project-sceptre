@@ -8,7 +8,8 @@ class Header extends Component {
 			<div className="container">
 			  <h3 className="masthead-title">
 			    <a href="/" title="Home">Yousuf Syed</a>
-			    <small>Software Engineer based in Pune, India.</small>
+			    <small>Software Engineer based in Pune, India. </small>
+			    <a className="resume" href="https://drive.google.com/file/d/12ZZ8ee3eA8rQMlkJBw1SblLs6M0KGlCi/view?usp=sharing" >RESUME</a>
 			  </h3>
 			</div>
 	</div>
