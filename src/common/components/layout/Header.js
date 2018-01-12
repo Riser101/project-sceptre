@@ -9,7 +9,7 @@ class Header extends Component {
 			  <h3 className="masthead-title">
 			    <a href="/" title="Home">Yousuf Syed</a>
 			    <small>Software Engineer based in Pune, India. </small>
-			    <a className="resume" href="https://docs.google.com/document/d/1JssJ1gMoRcrz-y2s64hk2O0O8Va72tqa5zzQUzNYi0k/edit?usp=sharing" >
+			    <a className="resume" href="https://drive.google.com/file/d/1-OKvpO9TLEh9ZchVKHv0nH2arU1Csq0x/view?usp=sharing" >
 			    	Resume 
 			    </a>
 			    <a className="blog" href="https://iyousufsyed.wordpress.com/">Blog</a>
